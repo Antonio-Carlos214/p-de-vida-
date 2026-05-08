@@ -44,5 +44,7 @@ function atualizaCronometro() {
     }
 }
 
+function comecacronometro(){
 atualizaCronometro();
-setInterval(atualizaCronometro, 1000);
+setInterval(atualizaCronometro, 1000);   
+}
