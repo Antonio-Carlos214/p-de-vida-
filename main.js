@@ -32,12 +32,16 @@ function calculaTempo(tempoObjetivo) {
     let dias = Math.floor(horas / 24);
 
     segundos %= 60;
-    minutos %= 60;    {}
-
+    minutos %= 60;    
     horas %= 24;
     if (tempofinal > 0){
         return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+    }else{
+        return "prazofinalizado";
     }
+
+}
+
 function atualizaCronometro() {
     for (let i = 0; i < contadores.length; i++) {
         contadores[i].textContent = calculaTempo(tempos[i]);
