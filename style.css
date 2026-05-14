@@ -103,7 +103,7 @@ body {
     .botoes {
         display: flex;
     }
-
+784826
     .botao:first-child {
         border-radius: 40px 0 0 0;
     }
